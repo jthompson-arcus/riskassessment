@@ -83,3 +83,7 @@ noncredentialed:
       - default
     privileges:
       default: [admin, weight_adjust, auto_decision_adjust, final_decision, revert_decision, add_package, delete_package, overall_comment, general_comment]
+
+connect_demo:
+  use_shinymanager: false
+  assessment_db: cd_database.sqlite

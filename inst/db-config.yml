@@ -87,3 +87,14 @@ noncredentialed:
 connect_demo:
   use_shinymanager: false
   assessment_db: cd_database.sqlite
+  
+connect_demo_local:
+  inherits: connect_demo
+  assessment_db: //network-location/riskassessment_demo/database.sqlite
+  loggit_json: //network-location/riskassessment_demo/loggit.json
+
+connect_demo_prod:
+  inherits: connect_demo
+  assessment_db: /data/riskassessment_demo/database.sqlite
+  loggit_json: /data/riskassessment_demo/loggit.json
+

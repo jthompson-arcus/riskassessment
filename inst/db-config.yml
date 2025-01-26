@@ -87,6 +87,12 @@ noncredentialed:
 connect_demo:
   use_shinymanager: false
   assessment_db: cd_database.sqlite
+  decisions:
+    categories:
+      - Approved
+      - Low Risk
+      - Needs Review
+      - Rejected
   
 connect_demo_local:
   inherits: connect_demo

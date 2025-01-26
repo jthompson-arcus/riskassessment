@@ -93,6 +93,13 @@ connect_demo:
       - Low Risk
       - Needs Review
       - Rejected
+    rules:
+      rule_1:
+        metric: license
+        condition: russian_roulette
+        decision: Rejected
+      rule_else:
+        decision: Needs Review
   
 connect_demo_local:
   inherits: connect_demo

@@ -100,6 +100,13 @@ connect_demo:
         decision: Rejected
       rule_else:
         decision: Needs Review
+  credentials:
+    roles:
+      - riskassessment_admin
+      - default
+    privileges:
+      default: [add_package, overall_comment, general_comment]
+      riskassessment_admin: [admin, weight_adjust, auto_decision_adjust, final_decision, revert_decision, add_package, delete_package, overall_comment, general_comment]
   
 connect_demo_local:
   inherits: connect_demo

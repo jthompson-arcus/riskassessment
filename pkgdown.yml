@@ -1,0 +1,17 @@
+pandoc: 3.1.11
+pkgdown: 2.0.7
+pkgdown_sha: ~
+articles:
+  Administrative_Tools_and_Options_V0.1.1: Administrative_Tools_and_Options_V0.1.1.html
+  Credential_Manager: Credential_Manager.html
+  Deployment: Deployment.html
+  Deployment_V0.1.1: Deployment_V0.1.1.html
+  User_Roles_and_Privileges: User_Roles_and_Privileges.html
+  dev_Using_SQLite_Command_Line: dev_Using_SQLite_Command_Line.html
+  dev_renv: dev_renv.html
+  riskassessment: riskassessment.html
+last_built: 2025-01-27T20:25Z
+urls:
+  reference: https://pharmar.github.io/riskassessment/reference
+  article: https://pharmar.github.io/riskassessment/articles
+

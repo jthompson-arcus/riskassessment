@@ -1,4 +1,4 @@
-gpl_license <- function(x) {
+is_gpl_license <- function(x) {
   grepl("GPL", x)
 }
 
